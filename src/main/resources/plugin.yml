@@ -1,0 +1,19 @@
+name: BlackPearl
+version: '1.0.0'
+main: com.playerxi.blackpearl.BlackPearlPlugin
+api-version: '1.21'
+description: >
+  The Black Pearl cutlass - Execution, Endurance, Vigilance, and Hydra's Will,
+  converted from the original datapack into a standalone plugin for
+  Minecraft 26.1.2.
+folia-supported: false
+commands:
+  blackpearl:
+    description: Give yourself the Black Pearl.
+    usage: /blackpearl [player]
+    permission: blackpearl.give
+    permission-message: You do not have permission to do that.
+permissions:
+  blackpearl.give:
+    description: Allows giving the Black Pearl sword.
+    default: op
